@@ -26,7 +26,7 @@ engine: julia
 ```{julia}
 #| echo: false
 #| output: false
-VERSION == v"1.11.5" || error("please use julia version 1.11.5")
+#VERSION == v"1.11.5" || error("please use julia version 1.11.5")
 using Pkg
 Pkg.activate("labo9_env")
 Pkg.activate("intro-opt-control")
